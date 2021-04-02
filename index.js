@@ -25,8 +25,8 @@ const fs = require('fs');
     const root = new Root({
         pagination: {
             queryString: 'start',
-            begin: 500,
-            end: 980,
+            begin: 0,
+            end: 480,
             offset: 20
         }
     }); //The root object fetches the startUrl, and starts the process. 
